@@ -23,7 +23,7 @@ public class LoginTest extends Verification {
 	}
 	
 	@Test(description = "Verify Gmail Login")
-	public void verifyLocationforResultsClasses() throws Exception{
+	public void verifyGmail() throws Exception{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://mail.google.com");
 		log.debug("--------Application Url entered as : mail.google.com");

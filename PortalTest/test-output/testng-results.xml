@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21012" started-at="2016-08-10T07:35:22Z" finished-at="2016-08-10T07:35:43Z">
+  <suite name="Suite" duration-ms="26259" started-at="2016-08-10T08:33:22Z" finished-at="2016-08-10T08:33:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21012" started-at="2016-08-10T07:35:22Z" finished-at="2016-08-10T07:35:43Z">
+    <test name="Test" duration-ms="26259" started-at="2016-08-10T08:33:22Z" finished-at="2016-08-10T08:33:48Z">
       <class name="com.portal.automation.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.portal.automation.tests.LoginTest@ae45eb6]" name="setup" is-config="true" duration-ms="2683" started-at="2016-08-10T13:05:22Z" finished-at="2016-08-10T13:05:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.portal.automation.tests.LoginTest@ae45eb6]" name="setup" is-config="true" duration-ms="3386" started-at="2016-08-10T14:03:22Z" finished-at="2016-08-10T14:03:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLocationforResultsClasses()[pri:0, instance:com.portal.automation.tests.LoginTest@ae45eb6]" name="verifyLocationforResultsClasses" duration-ms="17056" started-at="2016-08-10T13:05:25Z" description="Verify Gmail Login" finished-at="2016-08-10T13:05:42Z">
+        <test-method status="PASS" signature="verifyGmail()[pri:0, instance:com.portal.automation.tests.LoginTest@ae45eb6]" name="verifyGmail" duration-ms="21594" started-at="2016-08-10T14:03:25Z" description="Verify Gmail Login" finished-at="2016-08-10T14:03:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLocationforResultsClasses -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.portal.automation.tests.LoginTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="1250" started-at="2016-08-10T13:05:42Z" finished-at="2016-08-10T13:05:43Z">
+        </test-method> <!-- verifyGmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.portal.automation.tests.LoginTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="1263" started-at="2016-08-10T14:03:47Z" finished-at="2016-08-10T14:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.portal.automation.tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
